@@ -3,6 +3,7 @@ import { matchPath, Outlet, useLocation } from "react-router-dom";
 import type { MemoExplorerContext } from "@/components/MemoExplorer";
 import { MemoExplorer, MemoExplorerDrawer } from "@/components/MemoExplorer";
 import MobileHeader from "@/components/MobileHeader";
+import { GalleryFloatingButton } from "@/components/Gallery";
 import { userServiceClient } from "@/connect";
 import useCurrentUser from "@/hooks/useCurrentUser";
 import { useFilteredMemoStats } from "@/hooks/useFilteredMemoStats";
@@ -81,6 +82,9 @@ const MainLayout = () => {
           <Outlet />
         </div>
       </div>
+
+      {/* 3D Gallery 浮动按钮 */}
+      <GalleryFloatingButton />
     </section>
   );
 };

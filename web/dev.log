@@ -1,0 +1,132 @@
+$ vite
+
+  [32m[1mVITE[22m v8.0.11[39m  [2mready in [0m[1m473[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m3001[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.0.142:[1m3001[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.23.0.1:[1m3001[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.20.224.1:[1m3001[22m/[39m
+[2m9:52:09 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m9:52:09 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mError[22m: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+[39m > node_modules/.pnpm/@react-three+fiber@9.6.1_@t_d350d0befc76ee687942f4db4f272e24/node_modules/@react-three/fiber/dist/events-b389eeca.esm.js:1267:35
+ > HTMLImageElement.onImageError node_modules/.pnpm/three@0.185.0/node_modules/three/build/three.core.js:45204:18
+
+[2m9:52:09 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+    at http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-DI9wGDg_.js?v=e9ab5cbf:1062:52
+    at HTMLImageElement.onImageError (http://localhost:3001/node_modules/.vite/deps/three.module-Dg3SIrVH.js?v=e9ab5cbf:31729:17)
+
+The above error occurred in the <CanvasImpl> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, RenderErrorBoundary.
+
+[2m9:52:09 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mReact Router caught the following error during render Error: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+    at http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-DI9wGDg_.js?v=e9ab5cbf:1062:52
+    at HTMLImageElement.onImageError (http://localhost:3001/node_modules/.vite/deps/three.module-Dg3SIrVH.js?v=e9ab5cbf:31729:17)
+[2m9:52:12 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m9:52:12 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mError[22m: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+[39m > node_modules/.pnpm/@react-three+fiber@9.6.1_@t_d350d0befc76ee687942f4db4f272e24/node_modules/@react-three/fiber/dist/events-b389eeca.esm.js:1267:35
+ > HTMLImageElement.onImageError node_modules/.pnpm/three@0.185.0/node_modules/three/build/three.core.js:45204:18
+
+[2m9:52:12 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+    at http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-DI9wGDg_.js?v=e9ab5cbf:1062:52
+    at HTMLImageElement.onImageError (http://localhost:3001/node_modules/.vite/deps/three.module-Dg3SIrVH.js?v=e9ab5cbf:31729:17)
+
+The above error occurred in the <CanvasImpl> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, RenderErrorBoundary.
+
+[2m9:52:12 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mReact Router caught the following error during render Error: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+    at http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-DI9wGDg_.js?v=e9ab5cbf:1062:52
+    at HTMLImageElement.onImageError (http://localhost:3001/node_modules/.vite/deps/three.module-Dg3SIrVH.js?v=e9ab5cbf:31729:17)
+[2m9:52:14 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m9:52:14 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mError[22m: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+[39m > node_modules/.pnpm/@react-three+fiber@9.6.1_@t_d350d0befc76ee687942f4db4f272e24/node_modules/@react-three/fiber/dist/events-b389eeca.esm.js:1267:35
+ > HTMLImageElement.onImageError node_modules/.pnpm/three@0.185.0/node_modules/three/build/three.core.js:45204:18
+
+[2m9:52:14 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+    at http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-DI9wGDg_.js?v=e9ab5cbf:1062:52
+    at HTMLImageElement.onImageError (http://localhost:3001/node_modules/.vite/deps/three.module-Dg3SIrVH.js?v=e9ab5cbf:31729:17)
+
+The above error occurred in the <CanvasImpl> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, RenderErrorBoundary.
+
+[2m9:52:14 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mReact Router caught the following error during render Error: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+    at http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-DI9wGDg_.js?v=e9ab5cbf:1062:52
+    at HTMLImageElement.onImageError (http://localhost:3001/node_modules/.vite/deps/three.module-Dg3SIrVH.js?v=e9ab5cbf:31729:17)
+[2m10:19:33 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m10:19:33 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mError[22m: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+[39m > node_modules/.pnpm/@react-three+fiber@9.6.1_@t_d350d0befc76ee687942f4db4f272e24/node_modules/@react-three/fiber/dist/events-b389eeca.esm.js:1267:35
+ > HTMLImageElement.onImageError node_modules/.pnpm/three@0.185.0/node_modules/three/build/three.core.js:45204:18
+
+[2m10:19:33 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+    at http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-DI9wGDg_.js?v=e9ab5cbf:1062:52
+    at HTMLImageElement.onImageError (http://localhost:3001/node_modules/.vite/deps/three.module-Dg3SIrVH.js?v=e9ab5cbf:31729:17)
+
+The above error occurred in the <CanvasImpl> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, RenderErrorBoundary.
+
+[2m10:19:33 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mReact Router caught the following error during render Error: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+    at http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-DI9wGDg_.js?v=e9ab5cbf:1062:52
+    at HTMLImageElement.onImageError (http://localhost:3001/node_modules/.vite/deps/three.module-Dg3SIrVH.js?v=e9ab5cbf:31729:17)
+[2m10:20:07 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m10:20:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m10:20:17 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m10:22:32 PM[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/sse[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1142:49)
+    at afterConnectMultiple (node:net:1723:7)
+[2m10:23:27 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m10:23:27 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mError[22m: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+[39m > node_modules/.pnpm/@react-three+fiber@9.6.1_@t_d350d0befc76ee687942f4db4f272e24/node_modules/@react-three/fiber/dist/events-b389eeca.esm.js:1267:35
+ > HTMLImageElement.onImageError node_modules/.pnpm/three@0.185.0/node_modules/three/build/three.core.js:45204:18
+
+[2m10:23:27 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+    at http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-DI9wGDg_.js?v=e9ab5cbf:1062:52
+    at HTMLImageElement.onImageError (http://localhost:3001/node_modules/.vite/deps/three.module-Dg3SIrVH.js?v=e9ab5cbf:31729:17)
+
+The above error occurred in the <CanvasImpl> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, RenderErrorBoundary.
+
+[2m10:23:27 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mReact Router caught the following error during render Error: Could not load /api/v1/attachments/WKLdQiywH8nL2vkGs7No2t: undefined
+    at http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-DI9wGDg_.js?v=e9ab5cbf:1062:52
+    at HTMLImageElement.onImageError (http://localhost:3001/node_modules/.vite/deps/three.module-Dg3SIrVH.js?v=e9ab5cbf:31729:17)
+[2m10:26:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx, /src/pages/Gallery.tsx[22m
+[2m10:26:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Gallery.tsx[22m
+[2m10:26:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Gallery.tsx[22m
+[2m10:26:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Gallery.tsx[22m
+[2m10:44:01 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m10:44:05 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m11:00:30 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx, /src/pages/Gallery.tsx[22m
+[2m11:00:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m11:03:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m11:04:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m11:04:03 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m11:11:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m11:11:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m11:11:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m11:15:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m11:15:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m11:15:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m11:15:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
+[2m11:17:09 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\Bleem\Downloads\memosbeta\memos\web\src\components\Gallery\MemoFrame.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (273:4)
+
+[0m [90m 271 |[39m         )}
+ [90m 272 |[39m       [33m<[39m[33m/[39m[33mgroup[39m[33m>[39m
+[31m[1m>[22m[39m[90m 273 |[39m     [33m<[39m[33m/[39m[33mgroup[39m[33m>[39m
+ [90m     |[39m     [31m[1m^[22m[39m
+ [90m 274 |[39m   )[33m;[39m
+ [90m 275 |[39m }
+ [90m 276 |[39m[0m
+[2m11:17:09 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\Bleem\Downloads\memosbeta\memos\web\src\components\Gallery\MemoFrame.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (273:4)
+
+[0m [90m 271 |[39m         )}
+ [90m 272 |[39m       [33m<[39m[33m/[39m[33mgroup[39m[33m>[39m
+[31m[1m>[22m[39m[90m 273 |[39m     [33m<[39m[33m/[39m[33mgroup[39m[33m>[39m
+ [90m     |[39m     [31m[1m^[22m[39m
+ [90m 274 |[39m   )[33m;[39m
+ [90m 275 |[39m }
+ [90m 276 |[39m[0m
+[2m11:18:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Gallery/MemoFrame.tsx[22m
